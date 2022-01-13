@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title> 
+    <link rel="stylesheet" href="style1.css">    
+			{% block stylesheets %}{% endblock %}
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="/logo.png" class="logo">
+            <ul>
+                <li><a href="/aissatou">Accueil</a></li>
+                <li><a href="/portfolio">E-Portfolio</a></li>
+                <li><a href="/curriculum">Curriculum-Vitae</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+            <a href="#" class="btn">Buy Now</a>
+        </nav>
+    </div>
+</body>
+{% block body %}{% endblock %}
+</html>
