@@ -59,9 +59,10 @@ nav ul li a:hover:after{
     background: #fd4766;
     border: 2px solid #fd4766;
 }
+
 body {
-  background: #3952a3;
-  color: #485e74;
+  background: #69ca9d;
+  color: #e1f1e6;
   line-height: 1.6;
   font-family: 'Yantramanav', sans-serif;
   padding: 1em;
@@ -87,7 +88,7 @@ ul {
 }
 
 .brand span {
-  color: #ffffff;
+  color: #e1f1e6;
 }
 
 .wrapper {
@@ -103,7 +104,7 @@ ul {
 /* ------------------- */
 
 .company-info {
-  background: #C3C9DD;
+  background: #a0bea9;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -119,7 +120,7 @@ ul {
 /* ------- */
 
 .contact {
-  background: #dcdfea;
+  background: #8c9e91;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
@@ -151,7 +152,7 @@ ul {
 .contact form textarea {
   width: 100%;
   padding: 1em;
-  border: solid 1px #627EDC;
+  border: solid 1px #8c9e91;
   border-radius: 4px;
 }
 
@@ -160,7 +161,7 @@ ul {
 }
 
 .contact form button {
-  background: #627EDC;
+  background: #69ca9d;
   border: 0;
   color: #e4e4e4;
   text-transform: uppercase;
@@ -203,4 +204,9 @@ ul {
   .brand {
     text-align: left;
   }
+  footer {
+    background-color: #69ca9d;
+    color: #8c9e91;
+    padding: 20px 0 10px 0;
+    text-align: center;
 }
