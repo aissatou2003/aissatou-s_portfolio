@@ -62,10 +62,10 @@ nav ul li a:hover:after{
 
 body {
   background: #69ca9d;
-  color: #e1f1e6;
-  line-height: 1.6;
-  font-family: 'Yantramanav', sans-serif;
-  padding: 1em;
+color: #e1f1e6;
+line-height: 1.6;
+font-family: 'Yantramanav', sans-serif;
+padding: 1em;
 }
 
 .container {

@@ -18,13 +18,6 @@ class AissatouController extends AbstractController
         ]);
     }
       /**
-     * @Route("/curriculum", name="Curriculum Vitae")
-     */
-    public function curriculum()
-    {
-        return $this->render('aissatou/curriculum.html.twig');
-    }
-      /**
      * @Route("/portfolio", name="e-portfolio")
      */
     public function portfolio()
@@ -37,5 +30,12 @@ class AissatouController extends AbstractController
     public function contact()
     {
         return $this->render('aissatou/contact.html.twig');
+    }
+      /**
+     * @Route("/personnel", name="A propos")
+     */
+    public function personnel()
+    {
+        return $this->render('aissatou/personnel.html.twig');
     }
 }
