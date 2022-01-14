@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">    
-			{% block stylesheets %}{% endblock %}
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    {% block stylesheets %}{% endblock %}
 </head>
+
 <body>
     <div class="hero">
         <nav>
@@ -19,6 +22,20 @@
             <a href="#" class="btn">Buy Now</a>
         </nav>
     </div>
+        <footer>
+            <div id="deuxiemeTrait"></div>
+            <div id="CopyrightetIcones">
+                <div id="Copyright">
+                    <span>© from Ndeye Aissatou Ndao</span>
+                </div>
+                <div id="Icones">
+                    <a href="https://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.fr"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
 </body>
 {% block body %}{% endblock %}
+
 </html>
